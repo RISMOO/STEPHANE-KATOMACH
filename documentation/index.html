@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portroff - Documentation</title>
+	<meta name="language" content="English">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Portroff is responsive bootstrap 5 personal portfolio.">
+	<meta name="author" content="Dimitroff">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="dist/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/prism/prism.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  <div class="container">
+	    <a class="navbar-brand" href="#">PORTROFF</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="#welcome">Welcome</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#start">Start</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#features">Features</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#colors">Theme Color</a>
+	        </li>
+        	<li class="nav-item">
+	          <a class="nav-link" href="#portfolio">Portfolio</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#faq">Questions (FAQ)</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- CONTENT -->
+	<div>
+		<!-- Welcome -->
+		<span class="anchor" id="welcome"></span>
+		<div class="container container_m shadow-lg top">
+			<div class="m-5">
+				<p class="h1 text-center title_text">PORTROFF - Documentation</p>
+				<br>
+				<hr>
+				<p class="text-center">Portroff is a bootstrap landing page theme for you to promote your work, the theme has a fully responsive technology, that makes your website fit any screen size, positively impacting the accessibility of the content, the theme also has an elegant and minimalist design making it easy to present your portfolio to the visitor.</p>
+				<hr>
+				<div>
+					<p>Created: 03/11/2021</p>
+					<p>By: Dimitroff</p>
+				</div>
+			</div>
+		</div>
+		<!-- Start -->
+		<span class="anchor" id="start"></span>
+		<div class="container container_m shadow-lg">
+			<div class="m-5">
+				<p class="h1 text-center title_text">What we need to start</p>
+				<br>
+				<ol>
+					<li>Unzip the template file;</li>
+					<li>Install code editor like <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">vs code;</a></li>
+					<li>Open the project in the code editor;</li>
+					<li>Open <a target="_blank" href="../index.html">index.html</a> on your web browser to see your website.</li>
+				</ol>
+			</div>
+		</div>
+		<!-- Features -->
+		<span  class="anchor" id="features"></span>
+		<div class="container container_m shadow-lg">
+			<div class="m-5">
+				<p class="h1 text-center title_text">Features</p>
+				<br>
+				<ul>
+					<li>Font Awesome;</li>
+					<li>Google Fonts;</li>
+					<li>Bootstrap 5;</li>
+					<li>Jquery;</li>
+					<li>Owl-Carousel;</li>
+					<li>AOS - Animate on scroll library.</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Images and Colors -->
+		<span class="anchor" id="colors"></span>
+		<div class="container container_m shadow-lg">
+			<div class="m-5">
+				<p class="h1 text-center title_text">Background Image and Color</p>
+				<br>
+				<pre><code class="language-css" data-dependencies="markup">/*Theme Setup*/
+:root {
+	/*COLOR VAR*/
+  --main-color: #d94f14;
+  /*BACKGROUND IMAGE*/
+  --section_1-background:  url(URL_IMAGE_HERE);
+  --section_5-background: url(URL_IMAGE_HERE);
+}</code></pre>
+				<p>Change the default theme color by hovering over items:</p>
+				<ol>
+					<li>open the <a target="_blank" href="../css/style.css">style.css</a> located inside the css folder at the root of the file;</li>
+					<li>
+						Find the variable (<code>--main-color</code>) at the beginning of the file;
+					</li>
+					<li>
+						change the hexadecimal value (the default value is <code>#d94f14</code>).<br>This way the colors of the links and some of the items will be changed when hovering over them.
+					</li>
+				</ol>
+				<hr>
+				<p>Change the background images from section 1 and section 5:</p>
+				<ol>
+					<li>open the <a target="_blank" href="../css/style.css">style.css</a> located inside the css folder at the root of the file;</li>
+					<li>
+						Find the variable (<code>--section_1-background</code>) at the beginning of the file;
+					</li>
+					<li>
+						Add the path of the image inside the parentheses;
+					</li>
+					<li>
+						Repeat the previous step for the image in section 5. (<code>--section_5-background</code>).
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!-- Portfolio -->
+		<span class="anchor" id="portfolio"></span>
+		<div class="container container_m shadow-lg">
+			<div class="m-5">
+				<p class="h1 text-center title_text">Portfolio</p>
+				<br>
+				<p class="h4">Portfolio with modal:</p>
+				<p class="h5">Photography:</p>
+				<ol>
+					<li>Replace the <code>data-image</code> parameter path with the path of your image</li>
+					<li>paste the url of the thumbnail image into the image element below.</li>
+				</ol>
+				<pre><code class="language-markup" data-dependencies="markup">&lt;div class="col-sm-12 col-md-6 col-xl-4 element_port" data-bs-toggle="modal" data-bs-target="#modal_image" data-image="URL_IMAGE_HERE" data-aos="fade-up">
+	&lt;div class="portfolio_hover">
+		&lt;div class="text-center port_subtitle">
+			&lt;i class="fas fa-camera-retro">&lt;/i>
+			&lt;p class="h3">Photography 1&lt;/p>
+			&lt;p class="h6">Lorem Ipsum&lt;/p>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="div_img_portfolio">
+		&lt;img class="rounded img_portfolio" src="URL_IMAGE_HERE">
+	&lt;/div>
+&lt;/div></code></pre>
+				<hr>
+				<p class="h5">Youtube Video:</p>
+				<ol>
+					<li>Access the video on youtube;</li>
+					<li>Click share and then embed;</li>
+					<li>Copy the link inside the <code>src</code> tag on youtube;</li>
+					<li>Paste the link inside the <code>data-video</code> tag;</li>
+					<li>Paste the url of the thumbnail image into the image element below.</li>
+				</ol>
+				<pre><code class="language-markup" data-dependencies="markup">&lt;div class="col-sm-12 col-md-6 col-xl-4 element_port" data-bs-toggle="modal" data-bs-target="#modal_video" data-video="EMBED_URL_HERE" data-aos="fade-up">
+		&lt;div class="portfolio_hover">
+		&lt;div class="text-center port_subtitle">
+			&lt;i class="fas fa-video">&lt;/i>
+			&lt;p class="h3">Youtube Video&lt;/p>
+			&lt;p class="h6">Lorem Ipsum&lt;/p>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="div_img_portfolio">
+		&lt;img class="rounded img_portfolio" src="URL_IMAGE_HERE">
+	&lt;/div>
+&lt;/div></code></pre>
+				<hr>
+				<p class="h5">Project Modal:</p>
+				<ol>
+					<li>Add the ID of the modal you want to call (<code>data-bs-target</code>);</li>
+					<li>Paste the url of the thumbnail image into the image element below;</li>
+				<pre><code class="language-markup" data-dependencies="markup">&lt;div class="col-sm-12 col-md-6 col-xl-4 element_port" data-bs-toggle="modal" data-bs-target="#ID_HERE" data-aos="fade-up">
+	&lt;div class="portfolio_hover">
+		&lt;div class="text-center port_subtitle">
+			&lt;i class="fas fa-paste">&lt;/i>
+			&lt;p class="h3">Project 1&lt;/p>
+			&lt;p class="h6">Lorem Ipsum&lt;/p>
+		&lt;/div>
+	&lt;/div>
+	&lt;div class="div_img_portfolio">
+		&lt;img class="rounded img_portfolio" src="URL_IMAGE_HERE">
+	&lt;/div>
+&lt;/div></code></pre>
+					<li>Put the modal ID the same as you put in your call in the example above;</li>
+				<pre style="height: 450px"><code class="language-markup" data-dependencies="markup">&lt;div class="modal_information modal fade" id="ID_HERE" tabindex="-1">
+  &lt;div class="modal-dialog modal-xl modal-dialog-scrollable">
+    &lt;div class="modal-content">
+      &lt;div class="modal-header text-center">
+        &lt;h5 class="modal-title w-100">Project 1&lt;/h5>
+        &lt;button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close">&lt;/button>
+      &lt;/div>
+      &lt;div class="modal-body row">
+      	&lt;!-- Slide -->
+      	&lt;div class="col-sm-12 col-md-12 col-xl-6 mb-2">
+					&lt;div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					  &lt;div class="carousel-indicators">
+					    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">&lt;/button>
+					    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">&lt;/button>
+					    &lt;button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">&lt;/button>
+					  &lt;/div>
+					  &lt;div class="carousel-inner">
+					    &lt;div class="carousel-item active">
+					      &lt;img src="URL_IMAGE_HERE" class="img_info_slide d-block w-100" alt="...">
+					    &lt;/div>
+					    &lt;div class="carousel-item">
+					      &lt;img src="URL_IMAGE_HERE" class="img_info_slide d-block w-100" alt="...">
+					    &lt;/div>
+					    &lt;div class="carousel-item">
+					      &lt;img src="URL_IMAGE_HERE" class="img_info_slide d-block w-100" alt="...">
+					    &lt;/div>
+					  &lt;/div>
+					  &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					    &lt;span class="carousel-control-prev-icon" aria-hidden="true">&lt;/span>
+					    &lt;span class="visually-hidden">Previous&lt;/span>
+					  &lt;/button>
+					  &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					    &lt;span class="carousel-control-next-icon" aria-hidden="true">&lt;/span>
+					    &lt;span class="visually-hidden">Next&lt;/span>
+					  &lt;/button>
+					&lt;/div>
+      	&lt;/div>
+      	&lt;!-- Details -->
+      	&lt;div class="col-sm-12 col-md-12 col-xl-6 mb-5">
+      		&lt;!-- Project Info -->
+	      	&lt;div>
+	      		&lt;label class="modal_info_lbl">Project Info:&lt;/label>
+	      		&lt;p class="modal_info_p">...&lt;/p>
+	      	&lt;/div>
+	      	&lt;br>
+	      	&lt;!-- Project Details -->
+					&lt;label class="modal_info_lbl mb-3">Project Details:&lt;/label>
+					&lt;br>
+					&lt;!-- Client -->
+					&lt;div>
+						&lt;label class="info_details">&lt;span class="title_info_details">Client: &lt;/span>...&lt;/label>
+						&lt;hr>
+					&lt;/div>
+					&lt;!-- Tecnology -->
+					&lt;div>
+						&lt;label class="info_details">&lt;span class="title_info_details">Technologies: &lt;/span>...&lt;/label>
+						&lt;hr>
+					&lt;/div>
+					&lt;!-- Date -->
+					&lt;div>
+						&lt;label class="info_details">&lt;span class="title_info_details">Date: &lt;/span>...&lt;/label>
+						&lt;hr>
+					&lt;/div>
+					&lt;!-- URL -->
+					&lt;div>
+						&lt;label class="info_details">&lt;span class="title_info_details">URL: &lt;/span>&lt;a href="#" target="_blank">www.example.com &lt;i class="fas fa-external-link-alt">&lt;/i>&lt;/a>&lt;/label>
+					&lt;/div>
+      	&lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div></code></pre>
+					<li>Paste the modal into the body tag (For more information see the <a target="_blank" href="https://getbootstrap.com/docs/5.0/components/modal/">bootstap 5 documentation</a>).</li>
+				</ol>	
+			</div>
+		</div>
+		<!-- Questions (FAQ) -->
+		<span  class="anchor" id="faq"></span>
+		<div class="container container_m shadow-lg">
+			<div class="m-5">
+				<p class="h1 text-center title_text">Questions (FAQ)</p>
+				<br>
+				<ol>
+					<li>Add ID in tags (<code>data-bs-target</code>, <code>data-bs-target</code>, <code>aria-controls</code>) in question button;</li>
+					<li>Add the same ID as the question content div;</li>
+				</ol>
+
+				<pre><code class="language-markup" data-dependencies="markup">&lt;div class="accordion-item pb-3 pt-3">
+  &lt;h2 class="accordion-header">
+    &lt;button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ID_HERE" aria-expanded="false" aria-controls="ID_HERE">
+      TITLE HERE
+    &lt;/button>
+  &lt;/h2>
+  &lt;div id="ID_HERE" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    &lt;div class="accordion-body">...&lt;/div>
+  &lt;/div>
+&lt;/div></code></pre>
+			</div>
+		</div>
+	</div>
+
+	<!-- JAVASCRIPT -->
+	<script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="dist/prism/prism.js"></script>
+</body>
+</html>

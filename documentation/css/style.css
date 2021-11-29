@@ -1,0 +1,32 @@
+/*FONTS*/
+@font-face {
+   font-family: RobotoCondensed-Regular;
+   src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+   font-family: RobotoCondensed-Bold;
+   src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+.navbar-brand {
+   font-family: RobotoCondensed-Regular;
+   font-size: 35px;
+}
+.title_text {
+   font-family: RobotoCondensed-Regular;
+   font-size: 50px;
+}
+.p_dafault {
+   font-family: RobotoCondensed-Regular;
+}
+.container_m {
+   background-color: #f1f1f1;
+   padding: 15px;
+   margin-top: 25px;
+}
+.top {
+   margin-top: 100px !important;
+}
+.anchor {
+   position: relative;
+   top: -65px;
+}
