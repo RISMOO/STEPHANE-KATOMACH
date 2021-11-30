@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
+	<!--tarteaucitron-->
+
+	<script type="text/javascript" src="tarteaucitron/tarteaucitron.js"></script>
+
+	<script type="text/javascript">
+	tarteaucitron.init({
+	  "privacyUrl": "", /* Privacy policy url */
+
+	  "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+	  "cookieName": "tarteaucitron", /* Cookie name */
+
+	  "orientation": "middle", /* Banner position (top - bottom) */
+   
+	  "groupServices": false, /* Group services by category */
+					   
+	  "showAlertSmall": true, /* Show the small banner on bottom right */
+	  "cookieslist": true, /* Show the cookie list */
+					   
+	  "closePopup": false, /* Show a close X on the banner */
+
+	  "showIcon": true, /* Show cookie icon to manage cookies */
+	  //"iconSrc": "", /* Optionnal: URL or base64 encoded image */
+	  "iconPosition": "BottomLeft", /* BottomRight, BottomLeft, TopRight and TopLeft */
+
+	  "adblocker": false, /* Show a Warning if an adblocker is detected */
+					   
+	  "DenyAllCta" : true, /* Show the deny all button */
+	  "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+	  "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+					   
+	  "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+	  "removeCredit": true, /* Remove credit link */
+	  "moreInfoLink": true, /* Show more info link */
+
+	  "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+	  "useExternalJs": false, /* If false, the tarteaucitron.js file will be loaded */
+
+	  //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+					  
+	  "readmoreLink": "", /* Change the default readmore link */
+
+	  "mandatory": true, /* Show a message about mandatory cookies */
+	});
+
+
+	</script>
+	<!--tarteaucitron---->
 	<meta charset="utf-8">
 
 	<meta name="language" content="français">
@@ -38,6 +87,15 @@
 	<link rel="stylesheet" type="text/css" href="dist/owl-carousel/docs/assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="dist/aos-master/dist/aos.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!--facebook--->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v12.0&appId=232393018493826&autoLogAppEvents=1" nonce="mqdfx2nq"></script>
+
+	
+	<!--endfacebook-->
+	
 </head>
 <body>
 	
@@ -46,6 +104,7 @@
 		<!-- Header -->
 		<header id="header" class="header">
 			<div class="container p-2">
+			
 				<div class="title">
 					<h1>KATOMACH PHOTOGRAPHIE</h1>
 				</div>
@@ -83,6 +142,7 @@
 				<h1 class="name">Stéphane</h1><br>
 				<h1 class="surname">AC'H</h1>
 				<h2 class="profession">Artiste-auteur chez KATOMACH !</h2>
+				<h1 class="title">Cookie</h1>
 			</div>
 		</section>
 
@@ -583,9 +643,11 @@
 		
 
 		</div>
+		
 		</div>
 		
 	  </div>
+
 	</div>
  <section>
 
@@ -1062,8 +1124,7 @@
 		<section class="section_5">
 			<div class="filter_transparent">
 				<div class="container text-center">
-					
-				
+					<div class="fb-share-button" data-href="https://www.facebook.com/stephane.ach" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fstephane.ach&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
 				</div>
 			</div>
 		</section>
@@ -1144,7 +1205,8 @@
 			      Copyright © 2021 <a href="https://katomachphotographie.fr/" class="footer1">katomach photographie</a>.Tous droits réservés.
 			    </div>
 			    <div class="col-sm-12 col-md-3 col-xl-2 mt-2 mt-md-0 pt-md-5 pb-5 devcom">
-			      Réalisé par <a href="https://devcomdigital.com" class="footer1"><img src="images/devcomdigital.png" width="40" alt="devcomdigital.com"> devcomdigital.com</a><br>
+			      Réalisation <br><a href="https://devcomdigital.com">devcomdigital.com<br>
+				Assistant Web Freelance</a><br>
 				  <a href="images/cgv.pdf" target="_blank">CGV</a>
 			    </div>
 			  </div>
@@ -1167,13 +1229,16 @@
     }
 }, false);
 </script>
-
+        
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+		<script src="js/script.js"></script>
 		<script src="dist/jquery/jquery.min.js"></script>
 		<script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="dist/owl-carousel/dist/owl.carousel.min.js"></script>
 		<script src="dist/aos-master/dist/aos.js"></script>
 		<script src="js/util.js"></script>
 		<script src="js/click.js"></script>
+	
 	</div>
 </body>
 </html>
